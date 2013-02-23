@@ -1,0 +1,36 @@
+
+/*  Config  */ 
+
+.widget h1 .icon,
+.widget h1 .badge,
+.widget h1 .label,
+.widget h2 .icon,
+.widget h2 .badge,
+.widget h2 .label,
+.widget h3 .icon,
+.widget h3 .badge,
+.widget h3 .label,
+.widget h4 .icon,
+.widget h4 .badge,
+.widget h4 .label,
+.widget h5 .icon,
+.widget h5 .badge,
+.widget h5 .label,
+.panels h1 .icon,
+.panels h1 .badge,
+.panels h1 .label,
+.panels h2 .icon,
+.panels h2 .badge,
+.panels h2 .label,
+.panels h3 .icon,
+.panels h3 .badge,
+.panels h3 .label,
+.panels h4 .icon,
+.panels h4 .badge,
+.panels h4 .label,
+.panels h5 .icon,
+.panels h5 .badge,
+.panels h5 .label {
+  border: 10px solid red;
+  color: red
+}

@@ -1,0 +1,9 @@
+
+/*  Config  */ 
+
+button { background-color: red;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+-ms-border-radius: 15px;
+-o-border-radius: 15px;
+border-radius: 15px; }
