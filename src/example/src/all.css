@@ -1,0 +1,19 @@
+
+/*  Config  */ <%
+
+theme1 = {
+  padding: '20px',
+  margin: '10px'
+};
+
+theme2 = {
+  color: '#fff',
+  backgroundColor: '#000'
+};
+
+theme3 = all(theme1, theme2, { border: '1px solid black' });
+
+
+/*  Style  */ %>
+
+button { <%=use(theme3)%> }

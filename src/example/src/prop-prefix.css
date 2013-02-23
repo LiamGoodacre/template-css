@@ -1,0 +1,17 @@
+
+/*  Config  */ <%
+
+//  Defines a function that defines a background-color
+bg = prop('backgroundColor');
+// bg = function (v) { return { backgroundColor: v }; };
+
+//  Properties beginning with an underscore use vender prefixes
+round = prop('_borderRadius');
+// round = function (v) { return { _borderRadius: v }; };
+
+theme = all(bg('red'), round('15px'));
+
+
+/*  Style  */ %>
+
+button { <%=use(theme)%> }

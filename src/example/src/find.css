@@ -1,0 +1,15 @@
+
+/*  Config  */ <%
+
+containers = ['.widget', '.panels']
+headings = 'h1 h2 h3 h4 h5'.split(' ')
+icons = ['.icon', '.badge', '.label']
+colourScheme = 'red'
+
+
+/*  Style  */ %>
+
+<%=find(containers, headings, icons)%> {
+  border: 10px solid <%=colourScheme%>;
+  color: <%=colourScheme%>
+}

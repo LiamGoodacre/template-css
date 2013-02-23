@@ -1,0 +1,17 @@
+
+/*  Config  */ <%
+
+theme1 = {
+  padding: '20px',
+  margin: '10px'
+};
+
+theme2 = {
+  color: '#fff',
+  backgroundColor: '#000'
+};
+
+
+/*  Style  */ %>
+
+button { <%=use(theme1, theme2)%> }
